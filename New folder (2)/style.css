@@ -1,0 +1,76 @@
+body {
+    background: url() 100% 100%;
+    background-size: cover;
+}
+
+.container {
+    background: #ffffff;
+}
+.logo img{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #navvbarr{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 55px;
+}
+#navvbarr.scrolled {
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,.2);
+    background-color: rgb(254, 254, 254)
+  }
+  ul.navvbarr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #053e5fee ;
+    display: flex;
+}
+
+.nav-options{
+    display: flex;
+    margin-left: 180px;
+    align-items: center;
+}
+li.navitem a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+    margin-left: 45px;
+    text-decoration: none;
+}
+li.navitem a:hover {
+    background-color: #adadad;
+    
+}
+.nav-icons{
+   margin-left: 400px;
+   display: flex;
+   align-items: center;
+}
+.nav-icons a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 25px;
+    transition: all .42s ease;
+}
+.nav-icons a:hover{
+    color: rgb(173, 173, 173);
+    transform: scale(1.2);
+}
+  .hero{
+   background-image: url(banner11.jpg);
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0% ;
+    padding:0px 80px;
+  }
+
